@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
@@ -49,161 +49,160 @@
 </header>
 
 <!-- Основной контент -->
-
 <main>
     <section class="works">
         <div class="container">
-            <h1 class="works-title visually-hidden">Наши работы</h1>
-            <ul class="button-list list">
-                <li class="button-item">
-                    <button type="button" class="filter-btn">Все</button>
+            <h1 class="works__title visually-hidden">Наши работы</h1>
+            <ul class="button-set list">
+                <li class="button-set__item">
+                    <button class="button-filter" type="button">Все</button>
                 </li>
-                <li class="button-item">
-                    <button type="button" class="filter-btn">Веб-сайты</button>
+                <li class="button-set__item">
+                    <button class="button-filter" type="button">Веб-сайты</button>
                 </li>
-                <li class="button-item">
-                    <button type="button" class="filter-btn">Приложения</button>
+                <li class="button-set__item">
+                    <button class="button-filter" type="button">Приложения</button>
                 </li>
-                <li class="button-item">
-                    <button type="button" class="filter-btn">Дизайн</button>
+                <li class="button-set__item">
+                    <button class="button-filter" type="button">Дизайн</button>
                 </li>
-                <li class="button-item">
-                    <button type="button" class="filter-btn">Маркетинг</button>
+                <li class="button-set__item">
+                    <button class="button-filter" type="button">Маркетинг</button>
                 </li>
             </ul>
             
-            <ul class="works-list list">
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-1.jpg" alt="Логотип веб-сайта Технокряк" width="370">
+            <ul class="works list">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-1.jpg" alt="Логотип веб-сайта Технокряк" width="370">
                         <div class="card-overlay">
-                            <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                            <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                 платформу для цифрового
                                 шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Технокряк</h2>
-                            <p class="works-type">Веб-сайт</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Технокряк</h2>
+                            <p class="works__type">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-2.jpg" alt="Логотип постера New Orlean" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-2.jpg" alt="Логотип постера New Orlean" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
-                            <p class="works-type">Дизайн</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Постер New Orlean vs Golden Star</h2>
+                            <p class="works__type">Дизайн</p>
                         </div>
                         
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-3.jpg" alt="Логотип ресторана Seafood" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-3.jpg" alt="Логотип ресторана Seafood" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Ресторан Seafood</h2>
-                            <p class="works-type">Приложение</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Ресторан Seafood</h2>
+                            <p class="works__type">Приложение</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-4.jpg" alt="Логотип проекта Prime" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-4.jpg" alt="Логотип проекта Prime" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Проект Prime</h2>
-                            <p class="works-type">Маркетинг</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Проект Prime</h2>
+                            <p class="works__type">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-5.jpg" alt="Логотип проекта Boxes" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-5.jpg" alt="Логотип проекта Boxes" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Проект Boxes</h2>
-                            <p class="works-type">Приложение</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Проект Boxes</h2>
+                            <p class="works__type">Приложение</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-6.jpg" alt="Логотип веб-сайта Inspiration has no Borders" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-6.jpg" alt="Логотип веб-сайта Inspiration has no Borders" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Inspiration has no Borders</h2>
-                            <p class="works-type">Веб-сайт</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Inspiration has no Borders</h2>
+                            <p class="works__type">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-7.jpg" alt="Логотип издания Limited Edition" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-7.jpg" alt="Логотип издания Limited Edition" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Издание Limited Edition</h2>
-                            <p class="works-type">Дизайн</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Издание Limited Edition</h2>
+                            <p class="works__type">Дизайн</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-8.jpg" alt="Логотип проекта LAB" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-8.jpg" alt="Логотип проекта LAB" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Проект LAB</h2>
-                            <p class="works-type">Маркетинг</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Проект LAB</h2>
+                            <p class="works__type">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li class="works-item">
-                    <a href="" class="works-link link">
-                        <div class="works-thumb"><img src="./images/portfolio-9.jpg" alt="Логотип приложения Growing Business" width="370">
+                <li class="works__item">
+                    <a href="" class="works__link link">
+                        <div class="works__thumb"><img src="./images/portfolio-9.jpg" alt="Логотип приложения Growing Business" width="370">
                             <div class="card-overlay">
-                                <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                <p class="card-overlay__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <h2 class="works-title">Growing Business</h2>
-                            <p class="works-type">Приложение</p>
+                        <div class="works__content">
+                            <h2 class="works__title">Growing Business</h2>
+                            <p class="works__type">Приложение</p>
                         </div>
                     </a>
                 </li>
