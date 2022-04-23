@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 :root {
   /* Text colors */
   --text-color: #757575;
@@ -810,6 +811,7 @@ img {
 
 .socials__link--dark-theme {
   background-color: var(--footer-icon-bkgrnd);
+  color: var(--white-color);
 }
 
 .clients {
@@ -868,13 +870,16 @@ img {
 }
 
 .works {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.works__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-top: calc(-1 * var(--cards-gap));
   margin-left: calc(-1 * var(--cards-gap));
 }

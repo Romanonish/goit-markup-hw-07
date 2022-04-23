@@ -1,8 +1,11 @@
 .works {
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.works__list {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: calc(-1 * var(--cards-gap));
     margin-left: calc(-1 * var(--cards-gap));
 }
