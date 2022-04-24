@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-
 :root {
+
+    /*Fonts*/
+
+    --primary-font: roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
     /* Text colors */
     --text-color: #757575;
     --title-color: #212121;

@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 :root {
+  /*Fonts*/
+  --primary-font: roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
   /* Text colors */
   --text-color: #757575;
   --title-color: #212121;
@@ -45,7 +47,7 @@
 body {
   background-color: var(--primary-bkgrnd);
   color: var(--text-color);
-  font-family: roboto, sans-serif;
+  font-family: var(--primary-font);
 }
 
 .list {
@@ -102,7 +104,7 @@ img {
 .logo {
   display: block;
   text-decoration: none;
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -260,7 +262,7 @@ img {
   color: var(--white-color);
   -webkit-transition: background-color 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function);
-  font-family: Roboto;
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -302,7 +304,7 @@ img {
   color: var(--white-color);
   -webkit-transition: background-color 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function);
-  font-family: Roboto;
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -990,7 +992,7 @@ img {
   min-width: 73px;
   color: var(--title-color);
   background-color: var(--button-bkgrnd);
-  font-family: Roboto;
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -1121,7 +1123,7 @@ img {
 
 .subscription__input::-webkit-input-placeholder {
   color: var(--footer-placeholder-color);
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1130,7 +1132,7 @@ img {
 
 .subscription__input:-ms-input-placeholder {
   color: var(--footer-placeholder-color);
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1139,7 +1141,7 @@ img {
 
 .subscription__input::-ms-input-placeholder {
   color: var(--footer-placeholder-color);
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1148,7 +1150,7 @@ img {
 
 .subscription__input::placeholder {
   color: var(--footer-placeholder-color);
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

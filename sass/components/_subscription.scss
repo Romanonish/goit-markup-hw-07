@@ -40,7 +40,7 @@
 
     &::placeholder {
         color: var(--footer-placeholder-color);
-        font-family: 'Roboto';
+        font-family: var(--primary-font);
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
